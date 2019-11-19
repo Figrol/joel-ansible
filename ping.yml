@@ -1,0 +1,7 @@
+---
+- name: Ping a server
+  hosts: all
+  tasks:
+  
+  - name: Ping Host
+    ping: 
